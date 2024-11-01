@@ -1,0 +1,62 @@
+PrototypeULF.png
+size:1506,1506
+filter:Linear,Linear
+pma:true
+Axe
+bounds:2,553,305,460
+rotate:90
+AxeHead
+bounds:967,32,226,202
+rotate:90
+AxeTail
+bounds:313,3,207,449
+rotate:90
+Beard
+bounds:708,558,302,473
+rotate:90
+Body
+bounds:708,1096,408,757
+rotate:90
+Boot left
+bounds:1175,188,150,306
+Contact
+bounds:2,860,704,644
+Eyes
+bounds:1467,1446,58,28
+rotate:90
+Face
+bounds:1171,5,74,73
+rotate:90
+Goat!
+bounds:967,260,296,206
+rotate:90
+Hair
+bounds:764,55,198,186
+Hand left
+bounds:1416,355,88,85
+Hand right
+bounds:1416,268,88,85
+Left arm
+bounds:464,255,212,603
+Leg left
+bounds:328,212,129,339
+Leg right
+bounds:1183,496,130,364
+Right arm
+bounds:708,862,232,618
+rotate:90
+Sheep fur 1
+bounds:678,243,313,287
+rotate:90
+Sheep fur 2
+bounds:2,252,324,299
+Slash
+bounds:2,10,240,309
+rotate:90
+Wrist right
+bounds:1327,198,87,242
+Wrist rleft
+bounds:1171,81,105,298
+rotate:90
+boot right
+bounds:1328,442,159,652

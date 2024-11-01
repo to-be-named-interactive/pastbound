@@ -1,0 +1,197 @@
+{ "skeleton": { "images": "C:/Users/egzon/OneDrive/Documents/Resurrection/Assets/Artworks/Characters/Player(Ulf)/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "R_SummoningCircle", "bone": "root", "attachment": "R_SummoningCircle" },
+	{ "name": "R_Legs", "bone": "root", "attachment": "R_Legs" },
+	{ "name": "R_Forarm02", "bone": "root", "attachment": "R_Forarm02" },
+	{ "name": "R_Arm02", "bone": "root", "attachment": "R_Arm02" },
+	{ "name": "R_Hand02", "bone": "root", "attachment": "R_Hand02" },
+	{ "name": "R_Torso", "bone": "root", "attachment": "R_Torso" },
+	{ "name": "R_Shoulder02", "bone": "root", "attachment": "R_Shoulder02" },
+	{ "name": "R_Arm01", "bone": "root", "attachment": "R_Arm01" },
+	{ "name": "R_Shoulder01", "bone": "root", "attachment": "R_Shoulder01" },
+	{ "name": "R_Forarm01", "bone": "root", "attachment": "R_Forarm01" },
+	{ "name": "R_Hand01", "bone": "root", "attachment": "R_Hand01" },
+	{ "name": "R_NeckArmorBack", "bone": "root", "attachment": "R_NeckArmorBack" },
+	{ "name": "R_Neck", "bone": "root", "attachment": "R_Neck" },
+	{ "name": "R_NeckArmorFront", "bone": "root", "attachment": "R_NeckArmorFront" },
+	{ "name": "R_HeadOnUlf", "bone": "root", "attachment": "R_HeadOnUlf" },
+	{ "name": "U_Hand02", "bone": "root", "attachment": "U_Hand02" },
+	{ "name": "U_Arm02", "bone": "root", "attachment": "U_Arm02" },
+	{ "name": "U_ArmRobe02", "bone": "root", "attachment": "U_ArmRobe02" },
+	{ "name": "U_BackOfLegs", "bone": "root", "attachment": "U_BackOfLegs" },
+	{ "name": "U_Hand01", "bone": "root", "attachment": "U_Hand01" },
+	{ "name": "U_Torso", "bone": "root", "attachment": "U_Torso" },
+	{ "name": "U_Foot1", "bone": "root", "attachment": "U_Foot1" },
+	{ "name": "U_Foot2", "bone": "root", "attachment": "U_Foot2" },
+	{ "name": "U_LegRobe01", "bone": "root", "attachment": "U_LegRobe01" },
+	{ "name": "U_LegRobe02", "bone": "root", "attachment": "U_LegRobe02" },
+	{ "name": "U_legbanner", "bone": "root", "attachment": "U_legbanner" },
+	{ "name": "U_Belt", "bone": "root", "attachment": "U_Belt" },
+	{ "name": "U_Arm01", "bone": "root", "attachment": "U_Arm01" },
+	{ "name": "U_ArmRobe01", "bone": "root", "attachment": "U_ArmRobe01" },
+	{ "name": "U_Shoulder01", "bone": "root", "attachment": "U_Shoulder01" },
+	{ "name": "U_Shoulder02", "bone": "root", "attachment": "U_Shoulder02" },
+	{ "name": "U_TorsoBanner", "bone": "root", "attachment": "U_TorsoBanner" },
+	{ "name": "U_Hair02", "bone": "root", "attachment": "U_Hair02" },
+	{ "name": "U_Hair01", "bone": "root", "attachment": "U_Hair01" },
+	{ "name": "U_Face", "bone": "root", "attachment": "U_Face" },
+	{ "name": "U_Neckware", "bone": "root", "attachment": "U_Neckware" },
+	{ "name": "U_Beard", "bone": "root", "attachment": "U_Beard" },
+	{ "name": "U_Ear", "bone": "root", "attachment": "U_Ear" },
+	{ "name": "U_Eye01", "bone": "root", "attachment": "U_Eye01" },
+	{ "name": "U_Eye02", "bone": "root", "attachment": "U_Eye02" },
+	{ "name": "U_Eyebrow01", "bone": "root", "attachment": "U_Eyebrow01" },
+	{ "name": "U_Eyebrow02", "bone": "root", "attachment": "U_Eyebrow02" },
+	{ "name": "U_Mostache02", "bone": "root", "attachment": "U_Mostache02" },
+	{ "name": "U_Mostache01", "bone": "root", "attachment": "U_Mostache01" },
+	{ "name": "U_Nose", "bone": "root", "attachment": "U_Nose" },
+	{ "name": "U_HairSpring", "bone": "root", "attachment": "U_HairSpring" }
+],
+"skins": {
+	"default": {
+		"R_SummoningCircle": {
+			"R_SummoningCircle": { "x": 1041.5, "y": -1713, "width": 1361, "height": 294 }
+		},
+		"R_Legs": {
+			"R_Legs": { "x": 1041.5, "y": -1530, "width": 469, "height": 468 }
+		},
+		"R_Forarm02": {
+			"R_Forarm02": { "x": 1515, "y": -1519, "width": 218, "height": 716 }
+		},
+		"R_Arm02": {
+			"R_Arm02": { "x": 1410, "y": -955.5, "width": 278, "height": 565 }
+		},
+		"R_Hand02": {
+			"R_Hand02": { "x": 1585, "y": -1937, "width": 158, "height": 162 }
+		},
+		"R_Torso": {
+			"R_Torso": { "x": 998, "y": -983.5, "width": 594, "height": 983 }
+		},
+		"R_Shoulder02": {
+			"R_Shoulder02": { "x": 1299.5, "y": -662, "width": 351, "height": 332 }
+		},
+		"R_Arm01": {
+			"R_Arm01": { "x": 577, "y": -1006, "width": 260, "height": 572 }
+		},
+		"R_Shoulder01": {
+			"R_Shoulder01": { "x": 731.5, "y": -662, "width": 469, "height": 368 }
+		},
+		"R_Forarm01": {
+			"R_Forarm01": { "x": 584, "y": -1592, "width": 336, "height": 758 }
+		},
+		"R_Hand01": {
+			"R_Hand01": { "x": 788.5, "y": -2025, "width": 163, "height": 172 }
+		},
+		"R_NeckArmorBack": {
+			"R_NeckArmorBack": { "x": 996, "y": -516, "width": 260, "height": 156 }
+		},
+		"R_Neck": {
+			"R_Neck": { "x": 1006, "y": -493.5, "width": 122, "height": 141 }
+		},
+		"R_NeckArmorFront": {
+			"R_NeckArmorFront": { "x": 1007, "y": -532, "width": 290, "height": 176 }
+		},
+		"R_HeadOnUlf": {
+			"R_HeadOnUlf": { "x": 1041.5, "y": -361, "width": 249, "height": 344 }
+		},
+		"U_Hand02": {
+			"U_Hand02": { "x": 1253.5, "y": -1884.5, "width": 67, "height": 121 }
+		},
+		"U_Arm02": {
+			"U_Arm02": { "x": 1245, "y": -1539, "width": 104, "height": 630 }
+		},
+		"U_ArmRobe02": {
+			"U_ArmRobe02": { "x": 1253.5, "y": -1375.5, "width": 75, "height": 303 }
+		},
+		"U_BackOfLegs": {
+			"U_BackOfLegs": { "x": 1054.5, "y": -2066, "width": 435, "height": 910 }
+		},
+		"U_Hand01": {
+			"U_Hand01": { "x": 855, "y": -1912, "width": 72, "height": 120 }
+		},
+		"U_Torso": {
+			"U_Torso": { "x": 1040.5, "y": -1424, "width": 355, "height": 508 }
+		},
+		"U_Foot1": {
+			"U_Foot1": { "x": 957, "y": -2418, "width": 122, "height": 388 }
+		},
+		"U_Foot2": {
+			"U_Foot2": { "x": 1226, "y": -2418, "width": 122, "height": 388 }
+		},
+		"U_LegRobe01": {
+			"U_LegRobe01": { "x": 970, "y": -2093, "width": 266, "height": 888 }
+		},
+		"U_LegRobe02": {
+			"U_LegRobe02": { "x": 1187, "y": -2083.5, "width": 228, "height": 901 }
+		},
+		"U_legbanner": {
+			"U_legbanner": { "x": 1076, "y": -2048.5, "width": 190, "height": 805 }
+		},
+		"U_Belt": {
+			"U_Belt": { "x": 1048.5, "y": -1651.5, "width": 263, "height": 81 }
+		},
+		"U_Arm01": {
+			"U_Arm01": { "x": 856, "y": -1572, "width": 118, "height": 628 }
+		},
+		"U_ArmRobe01": {
+			"U_ArmRobe01": { "x": 855, "y": -1439, "width": 120, "height": 386 }
+		},
+		"U_Shoulder01": {
+			"U_Shoulder01": { "x": 901, "y": -1400, "width": 282, "height": 470 }
+		},
+		"U_Shoulder02": {
+			"U_Shoulder02": { "x": 1221.5, "y": -1398.5, "width": 223, "height": 473 }
+		},
+		"U_TorsoBanner": {
+			"U_TorsoBanner": { "x": 1084.5, "y": -1368.5, "width": 147, "height": 357 }
+		},
+		"U_Hair02": {
+			"U_Hair02": { "x": 1093.5, "y": -1041.5, "width": 155, "height": 149 }
+		},
+		"U_Hair01": {
+			"U_Hair01": { "x": 1007.5, "y": -1041.5, "width": 155, "height": 149 }
+		},
+		"U_Face": {
+			"U_Face": { "x": 1071, "y": -1059, "width": 110, "height": 130 }
+		},
+		"U_Neckware": {
+			"U_Neckware": { "x": 1066, "y": -1180.5, "width": 226, "height": 135 }
+		},
+		"U_Beard": {
+			"U_Beard": { "x": 1156, "y": -1712, "width": 274, "height": 1262 }
+		},
+		"U_Ear": {
+			"U_Ear": { "x": 1005, "y": -1052.5, "width": 24, "height": 67 }
+		},
+		"U_Eye01": {
+			"U_Eye01": { "x": 1051.5, "y": -1048.5, "width": 31, "height": 25 }
+		},
+		"U_Eye02": {
+			"U_Eye02": { "x": 1103, "y": -1052, "width": 18, "height": 16 }
+		},
+		"U_Eyebrow01": {
+			"U_Eyebrow01": { "x": 1041, "y": -1064.5, "width": 60, "height": 55 }
+		},
+		"U_Eyebrow02": {
+			"U_Eyebrow02": { "x": 1121.5, "y": -1057.5, "width": 55, "height": 51 }
+		},
+		"U_Mostache02": {
+			"U_Mostache02": { "x": 1145.5, "y": -1163, "width": 167, "height": 126 }
+		},
+		"U_Mostache01": {
+			"U_Mostache01": { "x": 1026.5, "y": -1171.5, "width": 167, "height": 157 }
+		},
+		"U_Nose": {
+			"U_Nose": { "x": 1094.5, "y": -1085, "width": 53, "height": 80 }
+		},
+		"U_HairSpring": {
+			"U_HairSpring": { "x": 1135.5, "y": -944.5, "width": 321, "height": 345 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

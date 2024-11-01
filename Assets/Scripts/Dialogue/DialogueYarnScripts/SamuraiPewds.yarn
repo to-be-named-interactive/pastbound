@@ -1,0 +1,33 @@
+﻿title: SamuraiPewds
+tags:
+position: -244,72
+---
+<<if are_the_coins_paid() == false>>
+    <<jump NotPaid>>
+<<else>>
+    <<jump Paid>>
+<<endif>>
+===
+
+title: NotPaid
+tags:
+position: -70,280
+---
+pewds: Hey... Can-Can I borrow some Coins? I-I'll return it lightning quick!
+-> Sure. Just return them by the end of the week <<if player_coins() >= 2>> 
+    <<has_been_paid true>>
+    <<remove_player_coins 2>>
+    pewds: Thanks kind stranger! I wont forget this!
+    -> Just return them after.
+    -> Sure, man. No problem.
+-> Sorry, I don't have any!
+    pewds: Oh... That's a shame...
+===
+
+title: Paid
+tags:
+position: -397,282
+---
+pewds: Thanks for the money dickhead!
+pewds: HAHAHAHHAHAHAH
+===
