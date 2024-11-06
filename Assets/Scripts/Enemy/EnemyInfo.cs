@@ -23,5 +23,4 @@ public class EnemyInfo : ScriptableObject
     [Header("Enemy Defence")]
     public float defencePower;
     public bool hasShield;
-
 }

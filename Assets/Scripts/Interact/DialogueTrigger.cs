@@ -6,14 +6,16 @@ using Yarn.Unity;
 
 public class DialogueTrigger : InteractBase
 {
-    [SerializeField] private NPC npcInfo;
-    [SerializeField] private GameObject InteractIcon_Keyboard;
+    [SerializeField] 
+    private NPC npcInfo;
+    
+    [SerializeField]
+    private GameObject InteractIcon_Keyboard;
+    
     private void Update()
     {
         CastOverlapCircle();
-
-      
-
+        
         if (hasObjectsEntered)
         {
             if (InteractIcon_Keyboard != null && !InteractIcon_Keyboard.gameObject.activeSelf) InteractIcon_Keyboard.SetActive(true);
@@ -27,7 +29,6 @@ public class DialogueTrigger : InteractBase
         {
             if (InteractIcon_Keyboard != null && InteractIcon_Keyboard.gameObject.activeSelf) InteractIcon_Keyboard.SetActive(false);
         }
-        
     }
   
     public void InteractWithNPC()
@@ -36,7 +37,5 @@ public class DialogueTrigger : InteractBase
         {
             FindObjectOfType<DialogueRunner>().StartDialogue(npcInfo.npcNodeName);
         }
-        
     }
-
 }

@@ -7,16 +7,24 @@ using Spine.Unity;
 [RequireComponent(typeof(Controller2D))]
 public class EnemyBase : MonoBehaviour
 {
-    [SerializeField] private EnemyInfo enemyInfo;
-    [HideInInspector] public SkeletonAnimation skeletonAnimation;
+    [SerializeField] 
+    private EnemyInfo enemyInfo;
+    
+    [HideInInspector] 
+    public SkeletonAnimation skeletonAnimation;
 
-    //Variables
+    // Variables
+    [HideInInspector] 
+    public float enemyHealth;
+    
+    [HideInInspector] 
+    public float enemyStamina;
 
-    [HideInInspector] public float enemyHealth;
-    [HideInInspector] public float enemyStamina;
-
-    [HideInInspector] public float gravityStrength;
-    [HideInInspector] public float gravityScale;
+    [HideInInspector] 
+    public float gravityStrength;
+    
+    [HideInInspector] 
+    public float gravityScale;
 
 
     public float jumpHeight; 
@@ -24,7 +32,7 @@ public class EnemyBase : MonoBehaviour
     public float minJumpHeight;
     [HideInInspector] public float jumpForce; 
 
-    //Movement
+    // Movement
     float gravity;
     Vector3 velocity;
     float velocityXSmoothing;
@@ -33,25 +41,24 @@ public class EnemyBase : MonoBehaviour
     private float accelerationTimeGrounded = .1f;
 
 
-    //bools
+    // Bools
     bool isBeingLaunched;
 
-    //Scripts
+    // Scripts
     Controller2D controller;
-
-
+    
     private void OnValidate()
     {
         gravityStrength = -(2 * jumpHeight) / Mathf.Pow(jumpTimeToApex, 2);
         gravityScale = gravityStrength;
     }
-
-
+    
     private void Awake()
     {
         skeletonAnimation = GetComponent<SkeletonAnimation>();
         controller = GetComponent<Controller2D>();
     }
+    
     private void Start()
     {
         enemyHealth = enemyInfo.enemyMaxHealth;
@@ -61,10 +68,12 @@ public class EnemyBase : MonoBehaviour
 
         jumpForce = Mathf.Abs(gravityStrength) * jumpTimeToApex;
     }
+    
     private void Update()
     {
         CalculateVelocity();
     }
+    
     #region Movement
     private void CalculateVelocity(int direction = 1)
     {
@@ -87,7 +96,7 @@ public class EnemyBase : MonoBehaviour
     {
         gravity = scale;
     }
-#endregion
+    #endregion
 
     public void GetHurt(float damagePower, float launchStartSpeed, float launchEndSpeed, int direction, float launchAttackTime, float launchEndTime)
     {
@@ -109,7 +118,6 @@ public class EnemyBase : MonoBehaviour
     private IEnumerator LaunchEnemy(float launchStartSpeed, float launchEndSpeed, int direction, float launchAttackTime, float launchEndTime)
     {
         isBeingLaunched = true;
-
         float startTime = Time.time;
 
         while (Time.time - startTime <= launchAttackTime)
@@ -117,8 +125,7 @@ public class EnemyBase : MonoBehaviour
             velocity.x = direction * launchStartSpeed;
             yield return null;
         }
-
-
+        
         startTime = Time.time;
 
         velocity.x = launchEndSpeed * direction;
@@ -137,5 +144,4 @@ public class EnemyBase : MonoBehaviour
         yield return new WaitForSeconds(durationAmount);
         skeletonAnimation.timeScale = 1;
     }
-
 }

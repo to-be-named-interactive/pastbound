@@ -13,6 +13,5 @@ public class AudioPlayer : MonoBehaviour
             sfx.Set(clip, volume, loop, pitch);
             sfx.Activate();
         }
-        
     }
 }

@@ -19,10 +19,9 @@ public class GameManager : MonoBehaviour
 
     [Header("UI Items")]
     [SerializeField] private TextMeshProUGUI coinsUIDisplayer;
-
-
-    //Private Varibales
-    //the old coins amount must me -1 in the begining so we can display coins value even when it's at 0 
+    
+    // Private Varibales
+    // the old coins amount must be -1 in the begining so we can display coins value even when it's at 0 
     private int oldCoinsAmount = -1;
     private bool displayCoins;
 
@@ -37,41 +36,32 @@ public class GameManager : MonoBehaviour
             {
                 instance = FindObjectOfType<GameManager>();
             }
+            
             return instance;
         }
     }
     #endregion
-
-
+    
     private void Update()
     {
-        //Listen if the coins variable changes display the new value on UI 
+        // Listen if the coins variable changes display the new value on UI 
         displayCoins = (coins != oldCoinsAmount) ?  true :  false;
         
-        //if we have a UI element to display to
+        // if we have a UI element to display to
         if (coinsUIDisplayer != null)
         {
-            //Display the changed amount
+            // Display the changed amount
             if (displayCoins)
             {
                 coinsUIDisplayer.text = coins.ToString();
                 oldCoinsAmount = coins;
             }
-           
-            
         }
-        
     }
-
-
-    //Collect coins skatered throughout the world
+    
+    // Collect coins skatered throughout the world
     public void CollectCoin()
     {
         coins += 1;
     }
-
-   
-
-
-
 }

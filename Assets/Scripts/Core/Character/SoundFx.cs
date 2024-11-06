@@ -5,10 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class SoundFx : MonoBehaviour
 {
-    [HideInInspector] public AudioSource audioSource;
+    [HideInInspector]
+    public AudioSource audioSource;
 
 	#region Instance
-	//Singleton Instance
+	// Singleton Instance
 	private static SoundFx instance;
 
 	public static SoundFx Instance
@@ -19,6 +20,7 @@ public class SoundFx : MonoBehaviour
 			{
 				instance = FindObjectOfType<SoundFx>();
 			}
+			
 			return instance;
 		}
 	}
@@ -41,5 +43,4 @@ public class SoundFx : MonoBehaviour
 	{
 		if (!audioSource.isPlaying) audioSource.Play();
 	}
-
 }

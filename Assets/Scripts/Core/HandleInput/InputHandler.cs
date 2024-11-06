@@ -5,15 +5,14 @@ using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
-    [HideInInspector] public Vector2 inputDirection = Vector2.zero;
+    [HideInInspector]
+    public Vector2 inputDirection = Vector2.zero;
 
-    //Events
+    // Events
     public event EventHandler OnJumpPreformed;
     public event EventHandler OnJumpCanceled;
-
     public event EventHandler OnRollPreformed;
     public event EventHandler OnInteractPreformed;
-
     public event EventHandler OnAttackPreformed;
 
     InputMap inputMap;

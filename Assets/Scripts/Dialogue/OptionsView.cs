@@ -6,46 +6,53 @@ using TMPro;
 using Yarn;
 using Yarn.Unity;
 
-
 public class OptionsView : DialogueViewBase
 {
-    [SerializeField] CanvasGroup canvasGroup;
+    [SerializeField] 
+    CanvasGroup canvasGroup;
 
-    [SerializeField] OptionView optionViewPrefab;
+    [SerializeField] 
+    OptionView optionViewPrefab;
 
-    [SerializeField] CanvasGroup optionViewContainer;
+    [SerializeField] 
+    CanvasGroup optionViewContainer;
 
-    [SerializeField] float fadeOptionsInTime = 0.1f;
+    [SerializeField] 
+    float fadeOptionsInTime = 0.1f;
 
-    [SerializeField] float fadeAllInTime = 0.1f;
+    [SerializeField] 
+    float fadeAllInTime = 0.1f;
 
-    [SerializeField] float fadeAllOutTime = 0.1f;
+    [SerializeField] 
+    float fadeAllOutTime = 0.1f;
 
-    [SerializeField] bool showUnavailableOptions = false;
+    [SerializeField] 
+    bool showUnavailableOptions = false;
 
-    [SerializeField] internal bool useTypewriterEffect = false;
+    [SerializeField] 
+    internal bool useTypewriterEffect = false;
 
-    /// The number of characters per second that should appear during a
-    /// typewriter effect.
+    // The number of characters per second that should appear during a typewriter effect.
     [SerializeField]
     [Min(0)]
     internal float typewriterEffectSpeed = 0f;
 
-    /// Controls whether the line view should fade in when lines appear, and
-    /// fade out when lines disappear.
-
+    // Controls whether the line view should fade in when lines appear, and fade out when lines disappear.
     [SerializeField]
     internal bool useFadeEffect = true;
-
-
     
-
     [Header("Last Line Components")]
-    [SerializeField] TextMeshProUGUI lastLineText;
-    [SerializeField] GameObject lastLineContainer;
+    [SerializeField] 
+    TextMeshProUGUI lastLineText;
+    
+    [SerializeField] 
+    GameObject lastLineContainer;
 
-    [SerializeField] TextMeshProUGUI lastLineCharacterNameText;
-    [SerializeField] GameObject lastLineCharacterNameContainer;
+    [SerializeField] 
+    TextMeshProUGUI lastLineCharacterNameText;
+    
+    [SerializeField] 
+    GameObject lastLineCharacterNameContainer;
 
     // A cached pool of OptionView objects so that we can reuse them
     List<OptionView> optionViews = new List<OptionView>();
@@ -56,29 +63,21 @@ public class OptionsView : DialogueViewBase
     // The line we saw most recently.
     LocalizedLine lastSeenLine;
 
-    /// A stop token that is used to interrupt the current animation.
+    // A stop token that is used to interrupt the current animation.
     Effects.CoroutineInterruptToken currentStopToken = new Effects.CoroutineInterruptToken();
 
-    /// A Unity Event that is called each time a character is revealed
-    /// during a typewriter effect.
-
+    // A Unity Event that is called each time a character is revealed during a typewriter effect.
     [SerializeField]
     internal UnityEngine.Events.UnityEvent onCharacterTyped;
-
-
-
-    /// A Unity Event that is called when a pause inside of the typewriter effect occurs.
-
-    [SerializeField] internal UnityEngine.Events.UnityEvent onPauseStarted;
-
-
-
-    /// A Unity Event that is called when a pause inside of the typewriter effect finishes and the typewriter has started once again.
-
-    [SerializeField] internal UnityEngine.Events.UnityEvent onPauseEnded;
-
-
-
+    
+    // A Unity Event that is called when a pause inside of the typewriter effect occurs.
+    [SerializeField] 
+    internal UnityEngine.Events.UnityEvent onPauseStarted;
+    
+    // A Unity Event that is called when a pause inside of the typewriter effect finishes and the typewriter has started once again.
+    [SerializeField] 
+    internal UnityEngine.Events.UnityEvent onPauseEnded;
+    
     public void Start()
     {
         canvasGroup.alpha = 0;
@@ -93,22 +92,28 @@ public class OptionsView : DialogueViewBase
 
     public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
-        // Don't do anything with this line except note it and
-        // immediately indicate that we're finished with it. RunOptions
-        // will use it to display the text of the previous line.
+        /*
+         * Don't do anything with this line except note it and
+         * immediately indicate that we're finished with it. RunOptions
+         * will use it to display the text of the previous line.
+         */
         lastSeenLine = dialogueLine;
         onDialogueLineFinished();
     }
+    
     public override void RunOptions(DialogueOption[] dialogueOptions, Action<int> onOptionSelected)
     {
         IEnumerator PresentLine()
         {
             if (lastSeenLine != null)
             {
-                // if we have a last line character name container
-                // and the last line has a character then we show the nameplate
-                // otherwise we turn off the nameplate
+                /*
+                 * if we have a last line character name container
+                 * and the last line has a character then we show the nameplate
+                 * otherwise we turn off the nameplate
+                 */
                 var line = lastSeenLine.TextWithoutCharacterName;
+
                 if (lastLineCharacterNameContainer != null)
                 {
                     if (string.IsNullOrWhiteSpace(lastSeenLine.CharacterName))
@@ -128,21 +133,21 @@ public class OptionsView : DialogueViewBase
 
                 if (useTypewriterEffect)
                 {
-                    // If we're using the typewriter effect, hide all of the
-                    // text before we begin any possible fade (so we don't fade
-                    // in on visible text).
+                    /*
+                     * If we're using the typewriter effect, hide all of the
+                     * text before we begin any possible fade (so we don't fade
+                     * in on visible text).
+                     */
                     lastLineText.maxVisibleCharacters = 0;
                 }
                 else
                 {
-                    // Ensure that the max visible characters is effectively
-                    // unlimited.
+                    // Ensure that the max visible characters is effectively unlimited.
                     lastLineText.maxVisibleCharacters = int.MaxValue;
                 }
 
 
-                // If we're using the typewriter effect, start it, and wait for
-                // it to finish.
+                // If we're using the typewriter effect, start it, and wait for it to finish.
                 if (useTypewriterEffect)
                 {
                     var pauses = LineView.GetPauseDurationsInsideLine(line);
@@ -164,12 +169,10 @@ public class OptionsView : DialogueViewBase
 
                     if (currentStopToken.WasInterrupted)
                     {
-                        // The typewriter effect was interrupted. Stop this
-                        // entire coroutine.
+                        // The typewriter effect was interrupted. Stop this entire coroutine.
                         yield break;
                     }
                 }
-
 
                 //lastLineContainer.SetActive(true);
             }
@@ -177,10 +180,7 @@ public class OptionsView : DialogueViewBase
             {
                 lastLineContainer.SetActive(false);
             }
-
-           
         }
-
 
         // If we don't already have enough option views, create more
         while (dialogueOptions.Length > optionViews.Count)
@@ -224,11 +224,13 @@ public class OptionsView : DialogueViewBase
 
         // Note the delegate to call when an option is selected
         OnOptionSelected = onOptionSelected;
-
-        // sometimes (not always) the TMP layout in conjunction with the
-        // content size fitters doesn't update the rect transform
-        // until the next frame, and you get a weird pop as it resizes
-        // just forcing this to happen now instead of then
+        
+        /*
+         * sometimes (not always) the TMP layout in conjunction with the
+         * content size fitters doesn't update the rect transform
+         * until the next frame, and you get a weird pop as it resizes
+         * just forcing this to happen now instead of then
+         */
         Relayout();
 
         // Fade it all in

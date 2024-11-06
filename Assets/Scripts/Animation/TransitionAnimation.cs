@@ -17,8 +17,7 @@ public class TransitionAnimation : MonoBehaviour
 	}
 
 	public void PlayFadeOutAnimation()
-    {
+	{
 		transitionAnimator.SetTrigger("TriggerFadeOut");
 	}
-    
 }

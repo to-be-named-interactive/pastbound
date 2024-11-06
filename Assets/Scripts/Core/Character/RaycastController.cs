@@ -2,8 +2,8 @@
 using System.Collections;
 
 [RequireComponent (typeof (BoxCollider2D))]
-public class RaycastController : MonoBehaviour {
-
+public class RaycastController : MonoBehaviour
+{
 	public LayerMask collisionMask;
 	
 	public const float skinWidth = .010f;
@@ -12,6 +12,7 @@ public class RaycastController : MonoBehaviour {
 
 	[HideInInspector]
 	public float horizontalRaySpacing;
+	
 	[HideInInspector]
 	public float verticalRaySpacing;
 
@@ -19,13 +20,16 @@ public class RaycastController : MonoBehaviour {
 	public BoxCollider2D boxCollider;
 	public RaycastOrigins raycastOrigins;
 	public Vector2 box;
-	public virtual void Start() {
+	
+	public virtual void Start()
+	{
 		boxCollider = GetComponent<BoxCollider2D> ();
 		box = Vector2.Scale(boxCollider.size, base.transform.localScale);
 		CalculateRaySpacing ();	
 	}
 	
-	public void UpdateRaycastOrigins() {
+	public void UpdateRaycastOrigins()
+	{
 		Bounds bounds = boxCollider.bounds;
 		bounds.Expand (skinWidth * -2);
 		
@@ -35,7 +39,8 @@ public class RaycastController : MonoBehaviour {
 		raycastOrigins.topRight = new Vector2 (bounds.max.x, bounds.max.y);
 	}
 	
-	public void CalculateRaySpacing() {
+	public void CalculateRaySpacing()
+	{
 		Bounds bounds = boxCollider.bounds;
 		bounds.Expand (skinWidth * -2);
 		
@@ -46,7 +51,8 @@ public class RaycastController : MonoBehaviour {
 		verticalRaySpacing = bounds.size.x / (verticalRayCount - 1);
 	}
 	
-	public struct RaycastOrigins {
+	public struct RaycastOrigins
+	{
 		public Vector2 topLeft, topRight;
 		public Vector2 bottomLeft, bottomRight;
 	}

@@ -1,0 +1,931 @@
+fileFormatVersion: 2
+guid: 19c10948edad4764a967a14fe90bc2e6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Forground
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2201
+      width: 7596
+      height: 2189
+    spriteID: a4ad1ff6bd6ed8146b2ad44df4c3fa6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2201}
+    spritePosition: {x: 46, y: 0}
+  - name: Groud
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 11044
+      width: 7640
+      height: 525
+    spriteID: 4c58ac1ab3e1696449ec8d49e52edf76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 11044}
+    spritePosition: {x: 0, y: 1}
+  - name: Forest
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6564
+      width: 7640
+      height: 1464
+    spriteID: fd45b08ed7003e84383bbc6f4cf06a7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6564}
+    spritePosition: {x: 0, y: 1}
+  - name: TURTLE STATION
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6978
+      y: 8036
+      width: 1134
+      height: 829
+    spriteID: 057554c9d897fad4e9c33460b3df022e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6978, y: 8036}
+    spritePosition: {x: 4356, y: 258}
+  - name: Tower
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6221
+      y: 8036
+      width: 749
+      height: 1569
+    spriteID: 6a041aa19ca1e1346b8aae014a7b67e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6221, y: 8036}
+    spritePosition: {x: 3571, y: 241}
+  - name: Close hill
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 9739
+      width: 3800
+      height: 1297
+    spriteID: 7152d7460a88cef4fb7f64679014600c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 9739}
+    spritePosition: {x: 0, y: 1}
+  - name: Far hill
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8036
+      width: 6209
+      height: 1695
+    spriteID: 1cd1fad67d9f06b4884e8c132456d4b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 8036}
+    spritePosition: {x: 1431, y: 1}
+  - name: Small mountain
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3812
+      y: 9739
+      width: 2114
+      height: 724
+    spriteID: 20cf68428bc31e5468412940ff01bfc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3812, y: 9739}
+    spritePosition: {x: 1009, y: 558}
+  - name: Mountain
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4398
+      width: 7680
+      height: 2158
+    spriteID: e07c5a4a911a4d44f9c4a5e95a2e8098
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4398}
+    spritePosition: {x: -38, y: 0}
+  - name: BC
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 7680
+      height: 2189
+    spriteID: 3e570e9e04e2ea641a924f84e1b4dcaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: -38, y: 0}
+  rigSpriteImportData:
+  - name: Forground
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4365
+      width: 7383
+      height: 2188
+    spriteID: feb11aa972d8f5d468203951abff01b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4365}
+    spritePosition: {x: 45, y: 0}
+  - name: Groud
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 11041
+      width: 7639
+      height: 525
+    spriteID: ac54e563b04068047b192e3a26f373bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 11041}
+    spritePosition: {x: 0, y: 0}
+  - name: Forest
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6561
+      width: 7639
+      height: 1464
+    spriteID: 44d106057975ea046b90ae49c7ae11c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6561}
+    spritePosition: {x: 0, y: 0}
+  - name: TURTLE STATION
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6216
+      y: 8033
+      width: 1134
+      height: 829
+    spriteID: 18bb4bedc82eb0249aefa5987a8be749
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6216, y: 8033}
+    spritePosition: {x: 4355, y: 257}
+  - name: Tower
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7395
+      y: 4365
+      width: 749
+      height: 1569
+    spriteID: 55858798aea1df1439f5d36e59570008
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7395, y: 4365}
+    spritePosition: {x: 3570, y: 240}
+  - name: Close hill
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 9736
+      width: 3799
+      height: 1297
+    spriteID: 7af49b65c57bfde448caf1372a163304
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 9736}
+    spritePosition: {x: 0, y: 0}
+  - name: Far hill
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8033
+      width: 6204
+      height: 1695
+    spriteID: 479c3dc3161e39a45bf02e617b8b4ea1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 8033}
+    spritePosition: {x: 1435, y: 16}
+  - name: Small mountain
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3811
+      y: 9736
+      width: 2114
+      height: 724
+    spriteID: 376487fdc9c498c4bb6c069e078e8e5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3811, y: 9736}
+    spritePosition: {x: 1008, y: 525}
+  - name: Mountain
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2200
+      width: 7639
+      height: 2157
+    spriteID: 980ca6624851d5b4f856f6f22b55abb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2200}
+    spritePosition: {x: 0, y: 0}
+  - name: BC
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 7639
+      height: 2188
+    spriteID: 61a1c146a2124204ebf50a1c77ac739a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 1
+  mosaicPSDLayers:
+  - name: Rainy weather
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97383bd666599384b9e4aa0c568cd2a8
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Flatneck_Station
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4e869be1a584a81409f1f032b002dc80
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Mountain
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b5a5c577e22fcd2499d1982b94029895
+    layerID: 206
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: train_tracks
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b0776a2f31816304e9f8c8414bfd06d5
+    layerID: 474
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: colors
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 250c7bce8c1eade44a95e2cd66bd3408
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Player
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 355b3267b1265ac4a85cd985427c4163
+    layerID: 435
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Forground
+    spriteName: Forground
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a4ad1ff6bd6ed8146b2ad44df4c3fa6f
+    layerID: 580
+    mosaicPosition: {x: 4, y: 2201}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Groud
+    spriteName: Groud
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4c58ac1ab3e1696449ec8d49e52edf76
+    layerID: 602
+    mosaicPosition: {x: 4, y: 11044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forest
+    spriteName: Forest
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fd45b08ed7003e84383bbc6f4cf06a7b
+    layerID: 601
+    mosaicPosition: {x: 4, y: 6564}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TURTLE STATION
+    spriteName: TURTLE STATION
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 057554c9d897fad4e9c33460b3df022e
+    layerID: 577
+    mosaicPosition: {x: 6978, y: 8036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Tower
+    spriteName: Tower
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6a041aa19ca1e1346b8aae014a7b67e5
+    layerID: 576
+    mosaicPosition: {x: 6221, y: 8036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Close hill
+    spriteName: Close hill
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7152d7460a88cef4fb7f64679014600c
+    layerID: 600
+    mosaicPosition: {x: 4, y: 9739}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Far hill
+    spriteName: Far hill
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1cd1fad67d9f06b4884e8c132456d4b2
+    layerID: 599
+    mosaicPosition: {x: 4, y: 8036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Small mountain
+    spriteName: Small mountain
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 20cf68428bc31e5468412940ff01bfc6
+    layerID: 424
+    mosaicPosition: {x: 3812, y: 9739}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Mountain
+    spriteName: Mountain
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e07c5a4a911a4d44f9c4a5e95a2e8098
+    layerID: 425
+    mosaicPosition: {x: 4, y: 4398}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BC
+    spriteName: BC
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e570e9e04e2ea641a924f84e1b4dcaf
+    layerID: 581
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  rigPSDLayers:
+  - name: Rainy weather
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5afc7656764b45049ba1af6a7cf50e12
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Flatneck_Station
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b9d55daa0dca1114d8f17adb932e3264
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Mountain
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00fca3d73dbf30743b6f466132c2df6e
+    layerID: 206
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: train_tracks
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b58f803e33a536a469d8973dd267e3ec
+    layerID: 474
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: colors
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 37fed72f8c360bb4392bbdfd9adc78b6
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Player
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f77407b701cf2f04da505f8501c581fa
+    layerID: 435
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Forground
+    spriteName: Forground
+    isGroup: 0
+    parentIndex: -1
+    spriteID: feb11aa972d8f5d468203951abff01b9
+    layerID: 580
+    mosaicPosition: {x: 4, y: 4365}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Groud
+    spriteName: Groud
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ac54e563b04068047b192e3a26f373bb
+    layerID: 602
+    mosaicPosition: {x: 4, y: 11041}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forest
+    spriteName: Forest
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 44d106057975ea046b90ae49c7ae11c2
+    layerID: 601
+    mosaicPosition: {x: 4, y: 6561}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TURTLE STATION
+    spriteName: TURTLE STATION
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 18bb4bedc82eb0249aefa5987a8be749
+    layerID: 577
+    mosaicPosition: {x: 6216, y: 8033}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Tower
+    spriteName: Tower
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 55858798aea1df1439f5d36e59570008
+    layerID: 576
+    mosaicPosition: {x: 7395, y: 4365}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Close hill
+    spriteName: Close hill
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7af49b65c57bfde448caf1372a163304
+    layerID: 600
+    mosaicPosition: {x: 4, y: 9736}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Far hill
+    spriteName: Far hill
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 479c3dc3161e39a45bf02e617b8b4ea1
+    layerID: 599
+    mosaicPosition: {x: 4, y: 8033}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Small mountain
+    spriteName: Small mountain
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 376487fdc9c498c4bb6c069e078e8e5a
+    layerID: 424
+    mosaicPosition: {x: 3811, y: 9736}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Mountain
+    spriteName: Mountain
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 980ca6624851d5b4f856f6f22b55abb9
+    layerID: 425
+    mosaicPosition: {x: 4, y: 2200}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BC
+    spriteName: BC
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 61a1c146a2124204ebf50a1c77ac739a
+    layerID: 581
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

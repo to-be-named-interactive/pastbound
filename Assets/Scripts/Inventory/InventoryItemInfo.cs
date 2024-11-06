@@ -7,5 +7,4 @@ public class InventoryItemInfo : ScriptableObject
 {
     public string itemName;
     public Sprite itemSprite;
-
 }

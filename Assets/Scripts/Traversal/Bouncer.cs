@@ -7,10 +7,8 @@ public class Bouncer : MonoBehaviour
     public float bounceForce = 2;
 	public float bounceForceAdditive;
 	
-
-
 	[Space(5)]
-
+	
 	public float bounceStartTime = 0.5f;
 	public float bounceEndTime = 0.5f;
 
@@ -24,13 +22,10 @@ public class Bouncer : MonoBehaviour
 		currentbounceForce = bounceForce;
 
 		if (bouncesCount <= 3) bouncesCount++;
-
+		
 		if(bouncesCount == 2) currentbounceForce += bounceForceAdditive;
-
+		
 		if (bouncesCount == 3) currentbounceForce += bounceForceAdditive;
-	
-
-
 
 		float startTime = Time.time;
 
