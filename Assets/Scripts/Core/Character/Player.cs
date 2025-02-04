@@ -266,6 +266,7 @@ public class Player : MonoBehaviour {
 	//if pressed attack
 	private void InputHandler_OnAttackPreformed(object sender, System.EventArgs e)
 	{
+ /*
 		if (playNextAttack && !freezePlayer && !IsRolling) 
 		{
 			int attackQueue = 1;
@@ -278,6 +279,7 @@ public class Player : MonoBehaviour {
 		} 
 
 		if (!isAttacking && !freezePlayer && !IsRolling) Attack();
+  */
 	}
 
 	//if pressed Interact
