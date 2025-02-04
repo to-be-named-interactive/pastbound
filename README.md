@@ -17,11 +17,10 @@
 - **Interactive Dialogue System**: Enables character interactions and branching narratives.
 
 ## Screenshots & GIFs
-> *(Replace with actual image & GIF paths)*
 
 | Gameplay | Combat | Dialogue System |
 |----------|--------|----------------|
-| ![Gameplay](path/to/gameplay-image.gif) | ![Combat](path/to/combat-image.gif) | ![Dialogue](path/to/dialogue-image.gif) |
+| ![Gameplay](Assets/Artworks/demo3.gif) | ![Combat](Assets/Artworks/Screenshot1.png) | ![Dialogue](Assets/Artworks/Screenshot2.png) |
 
 ## Technologies Used
 - **Game Engine:** Unity 2D
